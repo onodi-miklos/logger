@@ -6,7 +6,7 @@ Simple logger utility for Node.js. You can log messages to console and/or a file
 
 ```bash
 npm install @onodi-miklos/logger
-
+```
 ### Usage
 
 const logger = require('@onodi-miklos/logger');
