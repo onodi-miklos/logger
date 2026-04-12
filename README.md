@@ -10,6 +10,11 @@ npm install @onodi-miklos/logger
 ### Usage
 
 const logger = require('@onodi-miklos/logger');
+app.use(logger([
+  // 'console'
+  // 'file'
+]))
+
 
 // Log to console only
 logger(['console']);
