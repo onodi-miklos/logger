@@ -1,9 +1,11 @@
 const fs = require("fs");
 const path = require("path");
 
-const logFile = path.join(__dirname, "log.txt");
 
-const logger = (options) => {return (req, res, next) =>{
+const logger = (options, fileLocation) => {return (req, res, next) =>{
+
+  const logFile = path.resolve(fileLocation);
+
   res.on("finish", () => {
     const timestamp = new Date().toISOString();
 

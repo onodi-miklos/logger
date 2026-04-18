@@ -13,14 +13,14 @@ const logger = require('@onodi-miklos/logger');
 app.use(logger([
   // 'console'
   // 'file'
-]))
+], filePath: string))
 
 
 // Log to console only
-logger(['console']);
+logger(['console'], filePath: string);
 
 // Log to file only
-logger(['file']);
+logger(['file'], filePath: string);
 
 // Log to both
-logger(['console', 'file']);
+logger(['console', 'file'], filePath: string);
