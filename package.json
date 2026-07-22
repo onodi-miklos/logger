@@ -1,8 +1,9 @@
 {
   "name": "@onodi-miklos/logger",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Simple logger to file or/and console.",
-  "main": "logger.cjs",
+  "type": "module",
+  "main": "logger.js",
   "author": "Ónodi Miklós",
   "license": "MIT",
   "repository": {
