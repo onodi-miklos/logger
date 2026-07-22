@@ -37,4 +37,4 @@ const logger = (options, fileLocation) => {return (req, res, next) =>{
   next();
 }}
 
-module.exports = logger;
+export default logger;

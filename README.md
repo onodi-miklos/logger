@@ -1,6 +1,7 @@
 # @onodi-miklos/logger
 
 Simple logger utility for Node.js. You can log messages to console and/or a file.
+ESM!
 
 ## Installation
 

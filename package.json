@@ -1,6 +1,6 @@
 {
   "name": "@onodi-miklos/logger",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Simple logger to file or/and console.",
   "main": "logger.cjs",
   "author": "Ónodi Miklós",
