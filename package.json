@@ -1,6 +1,6 @@
 {
   "name": "@onodi-miklos/logger",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Simple logger to file or/and console.",
   "type": "module",
   "main": "logger.js",
